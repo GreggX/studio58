@@ -1,0 +1,28 @@
+{
+  "name": "studio58",
+  "version": "0.0.1",
+  "description": "Handle custom LEDs using a udoo board and express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GreggX/studio58.git"
+  },
+  "keywords": [
+    "express",
+    "domotics",
+    "udoo",
+    "ubuntu"
+  ],
+  "author": "greggx",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GreggX/studio58/issues"
+  },
+  "homepage": "https://github.com/GreggX/studio58#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
