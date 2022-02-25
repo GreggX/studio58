@@ -1,0 +1,6 @@
+{
+	"name": "Test",
+	"pin": 2,
+	"mode": "in",
+	"type": "led"
+}

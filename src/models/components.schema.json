@@ -1,0 +1,30 @@
+{
+	"validator": {
+		"$jsonSchema": {
+			"bsonType": "object",
+			"required": ["pin", "mode", "name", "type"],
+			"properties": {
+				"pin": {
+					"bsonType": "int",
+					"description": "must be a int and is required"
+				},
+				"mode": {
+					"enum": ["in", "out", "high", "low"],
+					"description": "can only be in|out|high|low and is required"
+				},
+				"name": {
+					"bsonType": "string",
+					"description": "must be a string and is required"
+				},
+				"type": {
+					"enum": ["led", "pushbutton", "relay"],
+					"description": "can only be one of the enum values and is required"
+				},
+				"state": {
+					"enum": [1, 0],
+					"description": "can only be 1|0"
+				}
+			}
+		}
+	}
+}
